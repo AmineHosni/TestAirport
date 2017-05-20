@@ -31,13 +31,7 @@ public class MyApplication {
     }
     
     public void start() {
-        if(current != null){
-            current.show();
-            return;
-        }
-        Form hi = new Form("Hi World");
-        hi.addComponent(new Label("Hi World"));
-        hi.show();
+        
     }
 
     public void stop() {
